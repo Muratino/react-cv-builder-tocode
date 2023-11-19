@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import App from './App'
+import AnApp from './AnApp'
 
 import 'uimini'
 
@@ -8,7 +8,7 @@ import './assets/scss/main.scss'
 
 ReactDom.render(
   <React.StrictMode>
-    <App />
+    <AnApp defName='Dud' defLastName='Johh' defTextArea='Писать о себе всякое дерьмо'/>
   </React.StrictMode>,
   document.getElementById('app')
 )
